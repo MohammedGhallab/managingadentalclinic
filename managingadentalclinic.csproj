@@ -1,0 +1,117 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\findings_buttons\abrasion.PNG" />
+    <None Remove="Assets\findings_buttons\apical lesion.PNG" />
+    <None Remove="Assets\findings_buttons\arrested caries.PNG" />
+    <None Remove="Assets\findings_buttons\caries.PNG" />
+    <None Remove="Assets\findings_buttons\destroyed.PNG" />
+    <None Remove="Assets\findings_buttons\eruption.PNG" />
+    <None Remove="Assets\findings_buttons\foreign.PNG" />
+    <None Remove="Assets\findings_buttons\fracture.PNG" />
+    <None Remove="Assets\findings_buttons\impacted.PNG" />
+    <None Remove="Assets\findings_buttons\no finding.PNG" />
+    <None Remove="Assets\findings_buttons\questionable.PNG" />
+    <None Remove="Assets\findings_buttons\recession.PNG" />
+    <None Remove="Assets\findings_buttons\root rest.PNG" />
+    <None Remove="Assets\findings_buttons\sealant.PNG" />
+    <None Remove="Assets\findings_buttons\tooth neck defect.PNG" />
+    <None Remove="Assets\findings_buttons\Veneer.PNG" />
+    <None Remove="Assets\finding_options\crown\insufficient.PNG" />
+    <None Remove="Assets\finding_options\crown\metal.PNG" />
+    <None Remove="Assets\finding_options\missing\extracted.PNG" />
+    <None Remove="Assets\finding_options\missing\no bud.PNG" />
+    <None Remove="Assets\finding_options\missing\no entry.PNG" />
+    <None Remove="Assets\finding_options\missing\not erupted.PNG" />
+    <None Remove="Assets\finding_options\mobility\0.PNG" />
+    <None Remove="Assets\finding_options\mobility\I.PNG" />
+    <None Remove="Assets\finding_options\mobility\II.PNG" />
+    <None Remove="Assets\finding_options\mobility\III.PNG" />
+    <None Remove="Assets\finding_options\Ortho\band.PNG" />
+    <None Remove="Assets\finding_options\Ortho\bracket.PNG" />
+    <None Remove="Assets\finding_options\Ortho\retener.PNG" />
+    <None Remove="Assets\finding_options\Pontic\pontic.PNG" />
+    <None Remove="Assets\finding_options\RCT\post.PNG" />
+    <None Remove="Assets\finding_options\RCT\RCT.PNG" />
+    <None Remove="Assets\finding_options\RCT\root resection.PNG" />
+    <None Remove="Assets\finding_options\vitality\++.PNG" />
+    <None Remove="Assets\finding_options\vitality\+.PNG" />
+    <None Remove="Assets\finding_options\vitality\-.PNG" />
+    <None Remove="Assets\finding_options\vitality\question marks.PNG" />
+    <None Remove="Assets\finding_typs\32.PNG" />
+    <None Remove="Assets\finding_typs\closed left.PNG" />
+    <None Remove="Assets\finding_typs\closed right.PNG" />
+    <None Remove="Assets\finding_typs\deciduous.PNG" />
+    <None Remove="Assets\finding_typs\Imolant.PNG" />
+    <None Remove="Assets\finding_typs\permanent.PNG" />
+    <None Remove="Assets\finding_typs\pontic.PNG" />
+    <None Remove="Assets\finding_typs\space closed.PNG" />
+    <None Remove="Assets\finding_typs\suddle.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\findings_buttons\abrasion.PNG" />
+    <Resource Include="Assets\findings_buttons\apical lesion.PNG" />
+    <Resource Include="Assets\findings_buttons\arrested caries.PNG" />
+    <Resource Include="Assets\findings_buttons\caries.PNG" />
+    <Resource Include="Assets\findings_buttons\destroyed.PNG" />
+    <Resource Include="Assets\findings_buttons\eruption.PNG" />
+    <Resource Include="Assets\findings_buttons\foreign.PNG" />
+    <Resource Include="Assets\findings_buttons\fracture.PNG" />
+    <Resource Include="Assets\findings_buttons\impacted.PNG" />
+    <Resource Include="Assets\findings_buttons\no finding.PNG" />
+    <Resource Include="Assets\findings_buttons\questionable.PNG" />
+    <Resource Include="Assets\findings_buttons\recession.PNG" />
+    <Resource Include="Assets\findings_buttons\root rest.PNG" />
+    <Resource Include="Assets\findings_buttons\sealant.PNG" />
+    <Resource Include="Assets\findings_buttons\tooth neck defect.PNG" />
+    <Resource Include="Assets\findings_buttons\Veneer.PNG" />
+    <Resource Include="Assets\finding_options\crown\insufficient.PNG" />
+    <Resource Include="Assets\finding_options\crown\metal.PNG" />
+    <Resource Include="Assets\finding_options\missing\extracted.PNG" />
+    <Resource Include="Assets\finding_options\missing\no bud.PNG" />
+    <Resource Include="Assets\finding_options\missing\no entry.PNG" />
+    <Resource Include="Assets\finding_options\missing\not erupted.PNG" />
+    <Resource Include="Assets\finding_options\mobility\0.PNG" />
+    <Resource Include="Assets\finding_options\mobility\I.PNG" />
+    <Resource Include="Assets\finding_options\mobility\II.PNG" />
+    <Resource Include="Assets\finding_options\mobility\III.PNG" />
+    <Resource Include="Assets\finding_options\Ortho\band.PNG" />
+    <Resource Include="Assets\finding_options\Ortho\bracket.PNG" />
+    <Resource Include="Assets\finding_options\Ortho\retener.PNG" />
+    <Resource Include="Assets\finding_options\Pontic\pontic.PNG" />
+    <Resource Include="Assets\finding_options\RCT\post.PNG" />
+    <Resource Include="Assets\finding_options\RCT\RCT.PNG" />
+    <Resource Include="Assets\finding_options\RCT\root resection.PNG" />
+    <Resource Include="Assets\finding_options\vitality\++.PNG" />
+    <Resource Include="Assets\finding_options\vitality\+.PNG" />
+    <Resource Include="Assets\finding_options\vitality\-.PNG" />
+    <Resource Include="Assets\finding_options\vitality\question marks.PNG" />
+    <Resource Include="Assets\finding_typs\32.PNG" />
+    <Resource Include="Assets\finding_typs\closed left.PNG" />
+    <Resource Include="Assets\finding_typs\closed right.PNG" />
+    <Resource Include="Assets\finding_typs\deciduous.PNG" />
+    <Resource Include="Assets\finding_typs\Imolant.PNG" />
+    <Resource Include="Assets\finding_typs\permanent.PNG" />
+    <Resource Include="Assets\finding_typs\pontic.PNG" />
+    <Resource Include="Assets\finding_typs\space closed.PNG" />
+    <Resource Include="Assets\finding_typs\suddle.PNG" />
+  </ItemGroup>
+
+</Project>
